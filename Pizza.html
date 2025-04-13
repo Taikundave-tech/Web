@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza & Soda Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pizza & Soda Delivery</h1>
+        <p><i>Fresh and tasty delivered to your door!</></p>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Margherita Pizza</h3>
+                    <p>Classic cheese and tomato.</p>
+                    <span>ksh 699</span>
+                </div>
+                <div class="item">
+                    <h3>Pepperoni Pizza</h3>
+                    <p>Loaded with pepperoni slices.</p>
+                    <span>ksh.1080</span>
+                </div>
+                <div class="item">
+                    <h3>Soda</h3>
+                    <p>Choose from Coke, Sprite, or Fanta.</p>
+                    <span>ksh 100</span>
+                </div>
+            </div>
+        </section>
+        <section class="order">
+            <h2>Place Your Order</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                
+                <label for="order">Order Details:</label>
+                <textarea id="order" name="order" required></textarea>
+                
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Pizza & Soda Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
